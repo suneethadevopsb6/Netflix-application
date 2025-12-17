@@ -1,0 +1,17 @@
+netflix-k8s/
+├── backend/
+│   ├── Dockerfile
+│   ├── package.json
+│   ├── server.js
+│   └── movies.json
+├── frontend/
+│   ├── Dockerfile
+│   ├── package.json
+│   └── src/
+│       └── App.js
+├── k8s/
+│   ├── backend.yaml
+│   ├── frontend.yaml
+│   ├── mongo.yaml
+│   └── ingress.yaml
+└── README.md
